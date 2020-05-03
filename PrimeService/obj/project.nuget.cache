@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pkm7sGDjWTtWaWzS7+njSD1d74Ndwn4CRk1SvUCsQD8AAFteTEeAv9PPCXDTv/S2tHOuca2GOWK6SBpFLFHayA==",
+  "success": true,
+  "projectFilePath": "c:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Svend White\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Svend White\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
