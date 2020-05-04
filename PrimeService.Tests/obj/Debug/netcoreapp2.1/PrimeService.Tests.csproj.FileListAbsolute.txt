@@ -2,6 +2,7 @@ C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAd
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp2.1\nunit.engine.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
+C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp2.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp2.1\PrimeService.Tests.deps.json
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp2.1\PrimeService.Tests.runtimeconfig.json
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp2.1\PrimeService.Tests.runtimeconfig.dev.json
@@ -16,4 +17,3 @@ C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp2.1\PrimeService.
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp2.1\PrimeService.Tests.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp2.1\PrimeService.Tests.pdb
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp2.1\PrimeService.Tests.genruntimeconfig.cache
-c:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp2.1\PrimeService.Tests.csproj.CoreCompileInputs.cache

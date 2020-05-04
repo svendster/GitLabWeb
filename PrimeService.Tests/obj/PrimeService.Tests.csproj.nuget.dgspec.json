@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "c:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\PrimeService.Tests.csproj": {}
+    "C:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\PrimeService.Tests.csproj": {}
   },
   "projects": {
-    "c:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\PrimeService.Tests.csproj": {
+    "C:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\PrimeService.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\PrimeService.Tests.csproj",
+        "projectUniqueName": "C:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\PrimeService.Tests.csproj",
         "projectName": "PrimeService.Tests",
-        "projectPath": "c:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\PrimeService.Tests.csproj",
+        "projectPath": "C:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\PrimeService.Tests.csproj",
         "packagesPath": "C:\\Users\\Svend White\\.nuget\\packages\\",
-        "outputPath": "c:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\obj\\",
+        "outputPath": "C:\\GitDesktop\\GitLabWeb\\PrimeService.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Svend White\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,17 +23,17 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj": {
-                "projectPath": "c:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj"
+              "C:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj": {
+                "projectPath": "C:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj"
               }
             }
           }
@@ -44,21 +45,51 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "ExtentReports.Core": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.4.0, )"
             },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
+            "NUnit.Console": {
               "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
+              "version": "[3.11.1, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.15.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[81.0.4044.6900, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.1.97, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.1.97, )"
             },
             "nunit": {
               "target": "Package",
@@ -75,21 +106,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj": {
+    "C:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj",
+        "projectUniqueName": "C:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj",
         "projectName": "PrimeService",
-        "projectPath": "c:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj",
+        "projectPath": "C:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj",
         "packagesPath": "C:\\Users\\Svend White\\.nuget\\packages\\",
-        "outputPath": "c:\\GitDesktop\\GitLabWeb\\PrimeService\\obj\\",
+        "outputPath": "C:\\GitDesktop\\GitLabWeb\\PrimeService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Svend White\\AppData\\Roaming\\NuGet\\NuGet.Config",

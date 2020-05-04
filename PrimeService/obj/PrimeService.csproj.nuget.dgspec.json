@@ -14,7 +14,8 @@
         "outputPath": "C:\\GitDesktop\\GitLabWeb\\PrimeService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Svend White\\AppData\\Roaming\\NuGet\\NuGet.Config",
