@@ -14,6 +14,7 @@ C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\DnsClient.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\SeleniumExtras.PageObjects.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\ExtentReports.dll
+C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\FluentAssertions.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\Gherkin.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Html.Abstractions.dll
@@ -122,4 +123,3 @@ C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.pdb
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.genruntimeconfig.cache
-C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.csproj.CoreCompileInputs.cache

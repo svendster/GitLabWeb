@@ -26,3 +26,5 @@ namespace PrimeService.Tests
         public Home Home => GetPages<Home>();
         public Computers Computers => GetPages<Computers>();
     }
+
+}

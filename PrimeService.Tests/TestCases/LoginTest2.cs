@@ -11,7 +11,7 @@ using PrimeService.Tests.PageMethods;
 namespace PrimeService.Tests.TestCases
 {
     [TestFixture]
-    public class LoginTest : ReportsGenerationClass
+    public class LoginTest2 : ReportsGenerationClass
     {
         OLDLoginPage loginPage;
         [Test]
@@ -26,7 +26,7 @@ namespace PrimeService.Tests.TestCases
             loginPage.enterPassword("ThisIsNotAPassword");
             loginPage.clickLoginBtn();
             Assert.IsTrue(loginPage.verifyDashboard());
-            loginPage.closeBrowser();
+            //loginPage.closeBrowser();
         }
         [Test]
         [Category("Login")]

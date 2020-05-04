@@ -187,11 +187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj",
+      "projectUniqueName": "c:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj",
       "projectName": "PrimeService",
-      "projectPath": "C:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj",
+      "projectPath": "c:\\GitDesktop\\GitLabWeb\\PrimeService\\PrimeService.csproj",
       "packagesPath": "C:\\Users\\Svend White\\.nuget\\packages\\",
-      "outputPath": "C:\\GitDesktop\\GitLabWeb\\PrimeService\\obj\\",
+      "outputPath": "c:\\GitDesktop\\GitLabWeb\\PrimeService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

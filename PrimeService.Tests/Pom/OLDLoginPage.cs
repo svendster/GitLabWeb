@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PrimeService.Tests.PageMethods
 {
-    class LoginPage
+    class OLDLoginPage
     {
         private IWebDriver driver;
         String toggle_menu = "//a[@id=’menu-toggle’]/i";
@@ -17,14 +17,14 @@ namespace PrimeService.Tests.PageMethods
         String password = "//input[@id=’txt-password’]";
         String loginBtn = "//button[@id=’btn-login’]";
         String menuDashboard = "//section[@id=’appointment’]/div/div/div/h2";
-public LoginPage(IWebDriver driver)
+        public OLDLoginPage(IWebDriver driver)
         {
             this.driver = driver;
         }
         public void goToPage()
         {
             driver.Navigate().GoToUrl("http://demoaut.katalon.com/");
-}
+        }
         public void goToToggleMenu()
         {
             driver.FindElement(By.XPath(toggle_menu)).Click();
