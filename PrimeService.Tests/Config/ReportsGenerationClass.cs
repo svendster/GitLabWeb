@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System.IO;
+using OpenQA.Selenium.Remote;
 
 namespace PrimeService.Tests
 {
@@ -52,8 +53,15 @@ namespace PrimeService.Tests
         [SetUp]
         public void BeforeTest()
         {
-            _driver = new ChromeDriver();
-            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(60);
+
+            var options = new ChromeOptions();
+            options.AddArgument(@"--incognito");
+            options.AddArgument(@"--start-maximized");
+            options.AddArgument(@"--disable-infobars");
+
+
+            _driver = new ChromeDriver(options);
+            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
             _driver.Manage().Window.Maximize();
             _driver.Manage().Cookies.DeleteAllCookies();
             _test = _extent.CreateTest(TestContext.CurrentContext.Test.Name);

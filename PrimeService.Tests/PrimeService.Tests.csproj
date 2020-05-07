@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Remove="Pages.cs" />
     <Compile Remove="ReportTest.cs" />
+    <Compile Remove="TestCases\LoginTest.cs" />
   </ItemGroup>
 
   <ItemGroup>

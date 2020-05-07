@@ -1,3 +1,6 @@
+C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.csprojAssemblyReference.cache
+C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.AssemblyInfoInputs.cache
+C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.AssemblyInfo.cs
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
@@ -116,9 +119,6 @@ C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Micro
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\PrimeService.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\bin\Debug\netcoreapp3.1\PrimeService.pdb
-C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.csprojAssemblyReference.cache
-C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.AssemblyInfoInputs.cache
-C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.AssemblyInfo.cs
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.csproj.CopyComplete
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.dll
 C:\GitDesktop\GitLabWeb\PrimeService.Tests\obj\Debug\netcoreapp3.1\PrimeService.Tests.pdb
