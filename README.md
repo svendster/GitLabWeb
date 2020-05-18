@@ -24,7 +24,7 @@ It currently automates the following E2E flows:
 
 - Locators for working with product categories are dynamic and keyword-based so that changes to catalog structure won't break any locators.
 
-- A user-friendly report is generated which includes snapshots of any failures:
+- Since NUNit doesn't generate reports like some frameworks (e.g., TestNG), code was added to generate a user-friendly report which includes full snapshots of any failures. See example below:
 
 ![Report](https://github.com/svendster/SeleniumPomExample/blob/master/Test_SS.JPG)
 
