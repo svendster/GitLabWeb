@@ -13,11 +13,11 @@ It currently automates the following E2E flows:
 
 - OOP principles are used.
 
-> - Locators for page elements used by more than 1 page are inherited
+> - Locators for page elements used by more than 1 page are inherited from a parent class.
 
-> - The website's persistant navigation elements (header and footer) is inherited by all POM classes from a page class
+> - The website's persistant navigation elements (header and footer) is inherited by all POM classes from a base page class.
 
-> - The POM's page class encapsulates some standard assertions so they don't need to be coded. Each page checks the following automatically:
+> - The POM's page class encapsulates some standard assertions so they don't need to be coded explicitly in tests. When you instantiated each page's POM class, the following checks are done automatically:
 > > 1. Page title in browser tab is correct
 > > 2. URL is correct
 > > 3. Page header is correct
