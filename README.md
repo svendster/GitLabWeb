@@ -2,7 +2,7 @@
 
 This a basic Selenium Page Object Model framework as part of a CI/CD pipeline that I'm working on for fun and to try different things out. It's a work in progress.
 
-The website currently being tested is the demo site of nopCommerce, a leading .NET shopping cart solution: https://demo.nopcommerce.com/.
+The website being tested is NopCommerce, a leading .NET ecommerce & shopping cart solution. My goal is to Dockerize the website provisioning, but at the moment the code tests the demo site at https://demo.nopcommerce.com/.
 
 It currently automates the following E2E flows:
 1. Registration
