@@ -1,6 +1,6 @@
 # SeleniumPomFrameworkForShoppingCart
 
-This solution is a first pass at a basic Selenium Page Object Model framework as part of a CI/CD pipeline that I'm working on for fun. It's a work in progress.
+This a basic Selenium Page Object Model framework as part of a CI/CD pipeline that I'm working on for fun and to try different things out. It's a work in progress.
 
 The website currently being tested is the demo site of nopCommerce, a leading .NET shopping cart solution: https://demo.nopcommerce.com/.
 
