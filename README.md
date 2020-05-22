@@ -17,14 +17,14 @@ It currently automates the following E2E flows:
 
 > - The website's persistant navigation elements (header and footer) is inherited by all POM classes from a base page class.
 
-> - The POM's page class encapsulates some standard assertions so they don't need to be coded explicitly in tests. When you instantiated each page's POM class, the following checks are done automatically:
+> - The POM's page class encapsulates some standard assertions so they don't need to be coded explicitly in tests. Each page's POM class includes a single method for doing the following assertions automatically:
 > > 1. Page title in browser tab is correct
 > > 2. URL is correct
 > > 3. Page header is correct
 
 - Locators for working with product categories are dynamic and keyword-based so that changes to catalog structure won't break any locators.
 
-- Since NUNit doesn't generate reports like some frameworks (e.g., TestNG), code was added to generate a user-friendly report which includes full snapshots of any failures. See example below:
+- Since NUNit doesn't generate reports like some frameworks (e.g., TestNG), the ExtentReports library is used to generate a user-friendly report which includes full snapshots of any failures. See example below:
 
 ![Report](https://github.com/svendster/SeleniumPomExample/blob/master/Test_SS.JPG)
 
