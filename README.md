@@ -11,18 +11,16 @@ It currently automates the following E2E flows:
 
 ## Details
 
-- OOP principles are used.
-
-> - Locators for page elements used by more than 1 page are inherited from a parent class.
+- OOP & DRY (don't repeat yourself) principles are used.
 
 > - The website's persistant navigation elements (header and footer) is inherited by all POM classes from a base page class.
 
-> - The POM's page class encapsulates some standard assertions so they don't need to be coded explicitly in tests. Each page's POM class includes a single method for doing the following assertions automatically:
+> - The POM's base page class encapsulates some standard assertions so they don't need to be coded explicitly in tests. Each page's POM class includes a single method for doing the following assertions automatically:
 > > 1. Page title in browser tab is correct
 > > 2. URL is correct
 > > 3. Page header is correct
 
-- Locators for working with product categories are dynamic and keyword-based so that changes to catalog structure won't break any locators.
+- Locators for working with product categories are dynamic and keyword-based so that changes to catalog structure won't break any locators. You'd just update the keywords being used.
 
 - Since NUNit doesn't generate reports like some frameworks (e.g., TestNG), the ExtentReports library is used to generate a user-friendly report which includes full snapshots of any failures. See example below:
 
