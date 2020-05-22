@@ -13,9 +13,11 @@ It currently automates the following E2E flows:
 
 - OOP & DRY (don't repeat yourself) principles are used.
 
-> - The website's persistant navigation elements (header and footer) is inherited by all POM classes from a base page class.
+> - Each page's POM class is very small and each to manage, concerning itself only with that page's few unique  elements.
 
-> - The POM's base page class encapsulates some standard assertions so they don't need to be coded explicitly in tests. Each page's POM class includes a single method for doing the following assertions automatically:
+> - The website's persistant navigation elements (header and footer) are inherited by all POM classes from a base page class.
+
+> - The POM's base page class encapsulates some standard assertions so they don't need to be coded explicitly in tests. Each page's POM class includes a single method for doing the following assertions automatically after going to the page:
 > > 1. Page title in browser tab is correct
 > > 2. URL is correct
 > > 3. Page header is correct
